@@ -1,0 +1,30 @@
+*** ================================ ***
+***     READ ME (sudoku solver)      ***
+*** ================================ ***
+
+User Instruction:
+    Go to the 'boards' directory,
+    create a new sudoku puzzle input file 
+    (using the extension .txt),
+    omit everything but the numbers and blanks,
+    and replace the blank with '-'.
+
+    To run the solver,
+    go to the 'src' directory,
+    in the console, 
+    type in "./BruteForceSolver ../boards/<file_name>"
+    press enter,
+    the program prints out each iteration
+    (if the simultaneous checking is needed),
+    press Ctrl+S to pause and to resume;
+    if want to terminate the program,
+    press Ctrl+C.
+    
+    To re-compile the source code, type "make" will 
+    automatically generate an executable.
+
+Developer's Instruction:
+    "gdb ./DynamicSolver" in the console
+    "set args ../boards/<file_name>" can set the argument(s)
+    or simply "run ../boards/<file_name>"
+    
